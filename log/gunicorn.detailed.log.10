@@ -1,0 +1,73 @@
+[2023-06-27 12:14:47,111] INFO _log() L224   * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.167:5000 (Press CTRL+C to quit) - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:14:47,127] INFO _log() L224   * Restarting with stat - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:14:59,900] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:14:59] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:15:11,766] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:15:11] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:15:52,562] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:15:52] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:19:11,755] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:19:11] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:19:23,706] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:19:23] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:19:57,941] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:19:57] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:21:26,035] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:21:26] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:22:36,222] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:22:36] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:23:36,580] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:23:36] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:23:48,698] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:23:48] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:24:14,895] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:24:14] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:25:07,107] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:25:07] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:25:46,414] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:25:46] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:26:06,815] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:26:06] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:27:20,213] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:27:20] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:27:22,185] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:27:22] "OPTIONS /alteralivro?nome_livro=teseeeeeee&previsao_leitura==[object%20HTMLInputElement]-undefined-undefined HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:27:22,233] ERROR log_exception() L1450 Exception on /alteralivro [PUT] - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py L1450
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\scaffold.py", line 281, in wrapper
+    **kwargs
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\Users\Catarina Sabbadim\Desktop\desenvolvimento-full-stack-basico\aula-3\meu_app_api\app.py", line 195, in altera_livro
+    previsao_leitura = datetime.strptime(query.previsao_leitura, '%d/%m/%Y')
+  File "c:\program files\python37\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "c:\program files\python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '=[object HTMLInputElement]-undefined-undefined' does not match format '%d/%m/%Y'
+[2023-06-27 12:27:22,250] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:27:22] "[35m[1mPUT /alteralivro?nome_livro=teseeeeeee&previsao_leitura==[object%20HTMLInputElement]-undefined-undefined HTTP/1.1[0m" 500 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:28:08,665] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:28:08] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:28:11,036] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:28:11] "OPTIONS /alteralivro?nome_livro=teseeeeeee&previsao_leitura==2023-07-22 HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:28:11,068] ERROR log_exception() L1450 Exception on /alteralivro [PUT] - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py L1450
+Traceback (most recent call last):
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\scaffold.py", line 281, in wrapper
+    **kwargs
+  File "C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\flask_openapi3\do_wrapper.py", line 135, in _do_wrapper
+    response = func(**request_kwargs)
+  File "C:\Users\Catarina Sabbadim\Desktop\desenvolvimento-full-stack-basico\aula-3\meu_app_api\app.py", line 195, in altera_livro
+    previsao_leitura = datetime.strptime(query.previsao_leitura, '%d/%m/%Y')
+  File "c:\program files\python37\lib\_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "c:\program files\python37\lib\_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '=2023-07-22' does not match format '%d/%m/%Y'
+[2023-06-27 12:28:11,083] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:28:11] "[35m[1mPUT /alteralivro?nome_livro=teseeeeeee&previsao_leitura==2023-07-22 HTTP/1.1[0m" 500 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:28:46,494] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:28:46] "OPTIONS /alteralivro?nome_livro=teseeeeeee&previsao_leitura==2023-07-11 HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
+[2023-06-27 12:30:48,485] INFO _log() L224  127.0.0.1 - - [27/Jun/2023 12:30:48] "GET /livros HTTP/1.1" 200 - - call_trace=C:\Users\Catarina Sabbadim\AppData\Roaming\Python\Python37\site-packages\werkzeug\_internal.py L224 
