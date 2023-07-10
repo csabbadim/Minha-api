@@ -34,7 +34,7 @@ class LivroBuscaAlteraSchema(BaseModel):
     nome_autor: str = "Nome do autor"
     ja_lido: str = ""
     quer_ler: str = ""
-    previsao_leitura: str = "27/07/2023"
+    previsao_leitura: str = ""
 
 class ListagemLivrosSchema(BaseModel):
     """ Define como uma listagem de livros será retornada.

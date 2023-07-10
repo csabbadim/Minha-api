@@ -127,7 +127,12 @@ def altera_livro(query: LivroBuscaAlteraSchema):
     nome_autor = query.nome_autor
     ja_lido = query.ja_lido
     quer_ler = query.quer_ler
-    previsao_leitura = datetime.strptime(query.previsao_leitura, '%d/%m/%Y')
+
+    if query.previsao_leitura == "":
+        previsao_leitura = query.previsao_leitura
+    else:
+        previsao_leitura = datetime.strptime(query.previsao_leitura, '%d/%m/%Y')
+
     logger.debug(f"Coletando dados sobre o livro: #{nome_livro}")
     session = Session()
     livro = session.query(Livro).filter(Livro.nome_livro == nome_livro).first()
@@ -156,8 +161,8 @@ def altera_livro(query: LivroBuscaAlteraSchema):
             error_msg = "Favor preencher o campo 'quer_ler' com 'Sim' ou 'Não'."
             logger.warning(f"{error_msg} Livro: '{livro.nome_livro}'")
             return {"message": error_msg}, 400
-
-        livro.previsao_leitura = previsao_leitura
+        if previsao_leitura != "":
+            livro.previsao_leitura = previsao_leitura
     try:
         session.commit()
         logger.debug(f"Livro '{livro.nome_livro}' atualizado com sucesso")
