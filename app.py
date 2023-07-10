@@ -167,6 +167,7 @@ def altera_livro(query: LivroBuscaAlteraSchema):
         session.commit()
         logger.debug(f"Livro '{livro.nome_livro}' atualizado com sucesso")
         return apresenta_livro(livro), 200
+    
     except Exception as e:
         error_msg = "Não foi possível atualizar o livro na base :/"
         logger.warning(f"Erro ao atualizar livro '{livro.nome_livro}', {error_msg}")

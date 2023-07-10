@@ -79,7 +79,7 @@ class LivroDelSchema(BaseModel):
     nome: str
 
 def apresenta_livro(livro: Livro):
-    """ Retorna uma representação do livro seguindo o schema definido em
+    """ Retorna uma representação do livro seguindo o schema definido em 
         LivroViewSchema.
     """
     return{"id": livro.id,
